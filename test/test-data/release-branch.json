@@ -1,0 +1,16 @@
+{
+  "branchName": "release/2.5.0",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b",
+      "message": "chore(release): bump version to 2.5.0",
+      "authorDisplayName": "Eve Wilson"
+    },
+    {
+      "hash": "2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c",
+      "message": "chore(SEL-2): update changelog for 2.5.0 release",
+      "authorDisplayName": "Eve Wilson"
+    }
+  ]
+}

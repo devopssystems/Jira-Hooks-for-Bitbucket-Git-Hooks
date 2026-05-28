@@ -1,0 +1,44 @@
+{
+  "localHook": {
+    "current_commit": "(current commit)",
+    "header_title": "Jira Hooks for Bitbucket Validation Report",
+    "header_blocked": "✗ The validation completed with errors.",
+    "header_passed": "✓ The validation completed successfully.",
+    "timing_rule_singular": "rule",
+    "timing_rule_plural": "rules",
+    "timing_validated": "validated",
+    "timing_skipped": "skipped",
+    "validation_errors": "Validation Errors",
+    "validation_failed_without_details": "Validation failed without additional details.",
+    "conditions": "Conditions",
+    "validated_target": "Validated Target",
+    "rule_error": "Error:",
+    "rule_success": "Success:",
+    "rule_hint": "Hint:",
+    "rule_summary": "Summary:",
+    "validation_result": "Validation Result:",
+    "recommendation": "Recommendation:",
+    "http_error": "✗ Local commit check failed (HTTP %{status_code}): %{body}",
+    "connection_error": "✗ Local commit check error: %{error}",
+    "skip_missing_file": "⚠️  Skipping local commit check: %{env_file} not found.",
+    "skip_invalid_config": "⚠️  Skipping local commit check: %{error}",
+    "usage_commit_msg": "Usage: commit-msg <commit-msg-file>",
+    "sections": {
+      "branch": "Branch",
+      "title": "Title",
+      "description": "Description",
+      "commits": "Commits"
+    },
+    "sources": {
+      "issue_key": "Issue key check",
+      "jql": "JQL check",
+      "consistency": "Issue key consistency check",
+      "naming": "Naming check",
+      "branch_condition": "Branch condition",
+      "pullrequest_condition": "Pull request condition",
+      "jira_connection": "Jira connection check",
+      "license": "License check",
+      "condition": "Condition check"
+    }
+  }
+}

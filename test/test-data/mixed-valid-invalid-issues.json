@@ -1,0 +1,31 @@
+{
+  "branchName": "feature/SEL-1-mixed-issue-validation",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "aa1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b",
+      "message": "feat(SEL-1): add valid feature for existing issue",
+      "authorDisplayName": "Alice Smith"
+    },
+    {
+      "hash": "bb2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c",
+      "message": "feat(SEL-2): add valid feature for second existing issue",
+      "authorDisplayName": "Alice Smith"
+    },
+    {
+      "hash": "cc3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d",
+      "message": "fix(SEL-1000): attempt to fix non-existent issue",
+      "authorDisplayName": "Bob Miller"
+    },
+    {
+      "hash": "dd4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e",
+      "message": "chore(TEST-1): reference wrong project key",
+      "authorDisplayName": "Bob Miller"
+    },
+    {
+      "hash": "ee5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f",
+      "message": "refactor(SEL-2): clean up valid code for existing issue",
+      "authorDisplayName": "Alice Smith"
+    }
+  ]
+}

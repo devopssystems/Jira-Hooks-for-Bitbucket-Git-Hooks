@@ -1,0 +1,11 @@
+{
+  "branchName": "feature/SEL-1000-search-improvements",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d",
+      "message": "WIP: search refactoring",
+      "authorDisplayName": "Frank Castle"
+    }
+  ]
+}

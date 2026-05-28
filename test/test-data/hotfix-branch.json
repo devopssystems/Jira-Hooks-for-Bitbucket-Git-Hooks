@@ -1,0 +1,11 @@
+{
+  "branchName": "hotfix/SEL-1-critical-null-pointer",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "message": "fix(SEL-1): resolve null pointer exception in user profile load",
+      "authorDisplayName": "Diana Prince"
+    }
+  ]
+}

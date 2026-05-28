@@ -1,0 +1,11 @@
+{
+  "branchName": "dependabot/npm_and_yarn/lodash-4.17.21",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "1e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f",
+      "message": "chore(deps): bump lodash from 4.17.20 to 4.17.21",
+      "authorDisplayName": "dependabot[bot]"
+    }
+  ]
+}

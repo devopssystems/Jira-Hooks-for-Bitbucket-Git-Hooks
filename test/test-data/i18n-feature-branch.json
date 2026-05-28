@@ -1,0 +1,11 @@
+{
+  "branchName": "feature/SEL-2-i18n-support",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "0d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e",
+      "message": "feat(SEL-2): add internationalisation support for German locale",
+      "authorDisplayName": "Jan Müller"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "branchName": "feature/SEL-2-reporting-module",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "5c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d",
+      "message": "feat(SEL-2): add PDF export for monthly reporting module\n\nAdds a new reporting endpoint that generates PDF documents from\naggregated monthly data. Uses Apache PDFBox under the hood.\n\nThe feature includes:\n- PDF generation service with configurable templates\n- REST endpoint POST /api/reports/monthly/export\n- Background job scheduling via Quartz\n- S3 upload for generated reports\n\nBreaking change: ReportService interface now requires an ExportFormat parameter.\n\nTested with: JUnit 5, Mockito, Testcontainers (PostgreSQL 14)\n\nResolves SEL-2\nRelated: SEL-1",
+      "authorDisplayName": "Maria Santos"
+    }
+  ]
+}

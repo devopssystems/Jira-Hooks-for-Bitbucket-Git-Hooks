@@ -1,0 +1,16 @@
+{
+  "branchName": "feature/SEL-1-api-rate-limiting",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "2f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a",
+      "message": "feat(SEL-1): implement token-bucket algorithm for API rate limiting",
+      "authorDisplayName": "Karen Page"
+    },
+    {
+      "hash": "3a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b",
+      "message": "perf(SEL-1): optimise rate-limit check with in-memory cache",
+      "authorDisplayName": "Karen Page"
+    }
+  ]
+}

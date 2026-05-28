@@ -1,0 +1,44 @@
+{
+  "localHook": {
+    "current_commit": "(aktueller Commit)",
+    "header_title": "Jira Hooks for Bitbucket Validierungsbericht",
+    "header_blocked": "✗ Die Validierung wurde mit Fehlern abgeschlossen.",
+    "header_passed": "✓ Die Validierung wurde erfolgreich abgeschlossen.",
+    "timing_rule_singular": "Regel",
+    "timing_rule_plural": "Regeln",
+    "timing_validated": "validiert",
+    "timing_skipped": "übersprungen",
+    "validation_errors": "Validierungsfehler",
+    "validation_failed_without_details": "Die Validierung ist ohne weitere Details fehlgeschlagen.",
+    "conditions": "Bedingungen",
+    "validated_target": "Geprüftes Ziel",
+    "rule_error": "Fehler:",
+    "rule_success": "Erfolg:",
+    "rule_hint": "Hinweis:",
+    "rule_summary": "Zusammenfassung:",
+    "validation_result": "Validierungsergebnis:",
+    "recommendation": "Empfehlung:",
+    "http_error": "✗ Lokale Commit-Prüfung fehlgeschlagen (HTTP %{status_code}): %{body}",
+    "connection_error": "✗ Fehler bei der lokalen Commit-Prüfung: %{error}",
+    "skip_missing_file": "⚠️  Lokale Commit-Prüfung übersprungen: %{env_file} wurde nicht gefunden.",
+    "skip_invalid_config": "⚠️  Lokale Commit-Prüfung übersprungen: %{error}",
+    "usage_commit_msg": "Verwendung: commit-msg <commit-msg-file>",
+    "sections": {
+      "branch": "Branch",
+      "title": "Titel",
+      "description": "Beschreibung",
+      "commits": "Commits"
+    },
+    "sources": {
+      "issue_key": "Issue-Key-Prüfung",
+      "jql": "JQL-Prüfung",
+      "consistency": "Issue-Key-Konsistenzprüfung",
+      "naming": "Namensprüfung",
+      "branch_condition": "Branch-Bedingung",
+      "pullrequest_condition": "Pull-Request-Bedingung",
+      "jira_connection": "Jira-Verbindungsprüfung",
+      "license": "Lizenzprüfung",
+      "condition": "Bedingungsprüfung"
+    }
+  }
+}

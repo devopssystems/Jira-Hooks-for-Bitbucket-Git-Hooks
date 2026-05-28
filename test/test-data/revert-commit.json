@@ -1,0 +1,11 @@
+{
+  "branchName": "main",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f",
+      "message": "revert(SEL-2): revert \"feat(SEL-2): add experimental caching layer\"\n\nThis reverts commit 9f8e7d6c5b4a3f2e1d0c.",
+      "authorDisplayName": "Hank Pym"
+    }
+  ]
+}

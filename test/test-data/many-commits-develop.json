@@ -1,0 +1,26 @@
+{
+  "branchName": "develop",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a",
+      "message": "feat(SEL-1): add email notification service\n\nImplements transactional email sending via SendGrid.\nSupports HTML and plain-text templates.\n\nCloses SEL-1",
+      "authorDisplayName": "Iris West"
+    },
+    {
+      "hash": "7a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b",
+      "message": "refactor(SEL-1): extract email template renderer into separate class",
+      "authorDisplayName": "Iris West"
+    },
+    {
+      "hash": "8b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c",
+      "message": "fix(SEL-1): handle missing recipient address gracefully",
+      "authorDisplayName": "Iris West"
+    },
+    {
+      "hash": "9c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d",
+      "message": "test(SEL-1): add integration tests for email notification service",
+      "authorDisplayName": "Iris West"
+    }
+  ]
+}

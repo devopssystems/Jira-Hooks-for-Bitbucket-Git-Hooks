@@ -1,0 +1,11 @@
+{
+  "branchName": "main",
+  "triggerType": "PUSH",
+  "commits": [
+    {
+      "hash": "4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e",
+      "message": "Merge pull request #42 from feature/SEL-1-dashboard-widgets\n\nMerge: add new dashboard widgets (SEL-1)",
+      "authorDisplayName": "Grace Hopper"
+    }
+  ]
+}

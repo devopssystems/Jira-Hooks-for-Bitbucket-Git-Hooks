@@ -1,0 +1,111 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jhfb-hooks-for-bitbucket-git-hooks"
+version = "1.0.0"
+description = "Python library and git hooks for Jira Hooks for Bitbucket Cloud commit validation"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+keywords = ["git", "hooks", "bitbucket", "jira", "commit", "pre-push"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+dependencies = [
+    "requests>=2.28.0",
+    "python-i18n>=0.3.9",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+rich = ["rich>=13.0.0"]
+
+[project.urls]
+Homepage      = "https://help.devopssystems.de/jhfb"
+Documentation = "https://help.devopssystems.de/jhfb"
+"Bug Tracker" = "https://tickets.help.devopssystems.de/servicedesk/customer/portal/18"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["jhfb_hooks*"]
+
+[tool.setuptools.package-data]
+jhfb_hooks = ["locales/*.json", "*.pyi", "py.typed"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "BLE", # flake8-blind-except
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+    "SIM", # flake8-simplify
+    "TID", # flake8-tidy-imports
+    "RUF", # ruff-specific rules
+]
+ignore = [
+    "E501", # line too long — handled by formatter
+]
+
+[tool.pyright]
+pythonVersion = "3.9"
+typeCheckingMode = "strict"
+reportMissingImports = true
+reportMissingModuleSource = false
+# Unknown types — escalated to errors so pyright CLI exits non-zero
+reportUnknownArgumentType = "error"
+reportUnknownVariableType = "error"
+reportUnknownMemberType = "error"
+reportUnknownParameterType = "error"
+reportUnknownLambdaType = "error"
+# Unused code
+reportUnusedImport = "error"
+reportUnusedVariable = "error"
+reportUnusedClass = "warning"
+reportUnusedFunction = "warning"
+# Return / type safety
+reportReturnType = "error"
+reportOperatorIssue = "error"
+reportIndexIssue = "error"
+reportAttributeAccessIssue = "error"
+reportCallIssue = "error"
+reportArgumentType = "error"
+reportAssignmentType = "error"
+# Any propagation
+reportUntypedFunctionDecorator = "warning"
+reportUntypedClassDecorator = "warning"
+reportUntypedBaseClass = "warning"
+reportUntypedNamedTuple = "warning"
+# __all__ / module structure
+reportUnsupportedDunderAll = "warning"
+reportWildcardImportFromLibrary = "warning"
+reportPrivateUsage = "warning"
+# Partially unknown types
+reportMissingTypeArgument = "warning"
+# Deprecated / dead code
+reportDeprecated = "warning"
+# Missing stubs
+reportMissingTypeStubs = "warning"
+# Narrowing / control flow
+reportUnnecessaryTypeIgnoreComment = "warning"
+reportUnnecessaryIsInstance = "warning"
+reportUnnecessaryCast = "warning"
+reportUnnecessaryComparison = "warning"
+reportUnnecessaryContains = "warning"

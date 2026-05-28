@@ -1,0 +1,11 @@
+{
+  "branchName": "",
+  "triggerType": "COMMIT",
+  "commits": [
+    {
+      "hash": "f1e2d3c4b5a6f1e2d3c4b5a6f1e2d3c4b5a6f1e2",
+      "message": "feat(SEL-1): add standalone commit without branch context",
+      "authorDisplayName": "Alice Smith"
+    }
+  ]
+}
